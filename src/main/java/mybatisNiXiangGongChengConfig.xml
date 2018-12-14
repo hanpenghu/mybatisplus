@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+
+<!--    <classPathEntry location="E:\1\mavenStore\mysql\mysql-connector-java\5.1.46\mysql-connector-java-5.1.46.jar"/>-->
+
+    <context id="testTables" targetRuntime="MyBatis3">
+
+        <commentGenerator>
+            <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+            <property name="suppressAllComments" value="true" />
+        </commentGenerator>
+        <!--数据库连接的信息：驱动类、连接地址、用户名、密码 ,荷合每美-->
+        <!--<jdbcConnection driverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+            connectionURL="jdbc:sqlserver://58.211.48.54:9002;DatabaseName=DB_HHMM" userId="sa"
+            password="Zhangtao0804527">
+        </jdbcConnection>-->
+        <!--<jdbcConnection driverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+                        connectionURL="jdbc:sqlserver://116.62.224.172:7502;DatabaseName=dblinzhan002" userId="sa"
+                        password="x2g5u7h!8+gaohang@">
+        </jdbcConnection>-->
+
+    <!--     <jdbcConnection driverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+                       connectionURL="jdbc:sqlserver://127.0.0.1:1433;DatabaseName=db_lz17" userId="sa"
+                       password="root">
+       </jdbcConnection>-->
+
+<!--        <jdbcConnection driverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+                        connectionURL="jdbc:sqlserver://120.26.73.200:7201;DatabaseName=DB_BARC" userId="sa"
+                        password="x3g5k8h!9+guanglan@">
+        </jdbcConnection>-->
+        <!--<jdbcConnection driverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+                        connectionURL="jdbc:sqlserver://114.55.143.240:1488;DatabaseName=DB_ZMT" userId="sa"
+                        password="ZMT@@123">
+        </jdbcConnection>-->
+    <!--    <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/test001?useUnicode=true&amp;characterEncoding=UTF-8" userId="root"
+                        password="root">
+        </jdbcConnection>-->
+        <!-- <jdbcConnection driverClass="oracle.jdbc.OracleDriver"
+            connectionURL="jdbc:oracle:thin:@127.0.0.1:1521:yycg" 
+            userId="yycg"
+            password="yycg">
+        </jdbcConnection> -->
+
+
+            <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                     connectionURL="jdbc:mysql://127.0.0.1:3306/ipace?
+                     autoReconnect=true&amp;useUnicode=true&amp;
+                     characterEncoding=utf8&amp;
+                     zeroDateTimeBehavior=CONVERT_TO_NULL&amp;
+                     useSSL=false&amp;serverTimezone=CTT"
+                            userId="root"
+                     password="root"
+            >
+
+
+      <!--  <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://127.0.0.1:3307/ipace?
+                     autoReconnect=true&amp;useUnicode=true&amp;
+                     characterEncoding=utf8&amp;
+                     zeroDateTimeBehavior=CONVERT_TO_NULL&amp;
+                     useSSL=false&amp;serverTimezone=CTT"
+                        userId="root"
+                        password="root"
+        >-->
+
+
+
+
+     </jdbcConnection>
+
+
+        <!-- 默认false，把JDBC DECIMAL 和 NUMERIC 类型解析为 Integer，为 true时把JDBC DECIMAL和NUMERIC类型解析为java.math.BigDecimal -->
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="true"/>
+        </javaTypeResolver>
+
+
+
+        <!-- targetProject:生成PO类的位置，重要！！ -->
+        <javaModelGenerator targetPackage="com.h.mybatisplus.entity"
+            targetProject=".\src\main\java">
+            <!-- enableSubPackages:是否让schema作为包的后缀 -->
+            <property name="enableSubPackages" value="false" />
+            <!-- 从数据库返回的值被清理前后的空格 -->
+            <property name="trimStrings" value="true" />
+
+
+        </javaModelGenerator>
+        
+        
+        
+        <!-- targetProject:xmlMapper映射文件生成的位置，重要！！ -->
+        <sqlMapGenerator targetPackage="com.h.mybatisplus.dao.xml"
+            targetProject=".\src\main\java">
+            <property name="enableSubPackages" value="false" />
+        </sqlMapGenerator>
+
+
+
+
+
+        <!-- targetPackage：mapper接口生成的位置，重要！！ -->
+        <javaClientGenerator type="XMLMAPPER"
+                             targetPackage="com.h.mybatisplus.dao"
+                             targetProject=".\src\main\java">
+            <property name="enableSubPackages" value="false" />
+        </javaClientGenerator>
+
+        
+        
+        <!-- 指定数据库表，要生成哪些表，就写哪些表，要和数据库中对应，不能写错！ -->
+        <!-- enableSelectByExample="false"不写默认是true,会生成PO类对应的Example类 -->
+       <!--  <table tableName="shang_pin_fen_lei"
+        	enableSelectByExample="false"
+        ></table> -->
+        <!--dept cust salm my_wh-->
+        <!--<table tableName="sapso"></table>--><!--产品打样表 -->
+       <!-- <table tableName="up_def"></table>--><!-- 单价表-->
+       <!-- <table tableName="cur_id"></table>--><!--币别表 -->
+      	<!-- <table tableName="before_same_prdNo_merge"></table>-->
+        <!--<table tableName="indx"></table>--><!--中类表 -->
+       <!-- <table tableName="prdt_samp"></table>-->
+        <!--<table tableName="salm"></table>
+        <table tableName="my_wh"></table>-->
+        <!--<table tableName="model_users_spc"></table>-->
+       <!-- <table tableName="prdt_ut"></table>-->
+        <!--<table tableName="alter_price_rec"></table>-->
+         <!--<table tableName="sys_dept"></table>-->
+        <!--<table tableName="sys_perm"></table>-->
+      <!--  <table tableName="sys_role"></table>
+        <table tableName="sys_role_perm"></table>
+        <table tableName="sys_tenant"></table>
+
+        <table tableName="sys_user_role"></table>
+
+        <table tableName="sys_login_log"></table>
+
+        <table tableName="sys_operation_log"></table>-->
+        <!--<table tableName="sys_dept_crud"></table>-->
+        <!--<table tableName="sys_dic"></table>-->
+        <!--<table tableName="sys_perm"></table>-->
+
+        <!--<table tableName="sys_regist_identify"></table>-->
+        <!--<table tableName="sys_user_dept"></table>-->
+        <table tableName="sys_user"></table>
+    </context>
+</generatorConfiguration>

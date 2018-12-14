@@ -1,0 +1,409 @@
+2018-12-14 11:00:44,575 INFO (StartupInfoLogger.java:50)- Starting MybatisplusApplication on SC-201810101158 with PID 6520 (E:\mybatisplus\target\classes started by Administrator in E:\mybatisplus)
+2018-12-14 11:00:44,578 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-14 11:00:47,185 INFO (StartupInfoLogger.java:59)- Started MybatisplusApplication in 3.102 seconds (JVM running for 4.452)
+2018-12-14 11:00:51,421 INFO (pp.java:93)- @@@@@  sysUsers: {
+	"current":2,
+	"pages":6,
+	"records":[
+		{
+			"createTime":"2018-11-13 16:18:43",
+			"deptId":"2",
+			"email":"",
+			"id":"181113161843057-925",
+			"lastSet":"[{\"id\":\"412\",\"name\":\"专属服务器DCC\",\"url\":\"/dcc\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"dcc\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"414\",\"name\":\"应用引擎专业版BAEPRO\",\"url\":\"/baepro\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"baepro\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"415\",\"name\":\"百度MapReduceBMR\",\"url\":\"/mapreduce\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"mapreduce\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"418\",\"name\":\"百度Elasticsearch\",\"url\":\"/elasticsearch\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"elasticsearch\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"419\",\"name\":\"弹性公网IPEIP\",\"url\":\"/eip\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"eip\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"420\",\"name\":\"负载均衡BLB\",\"url\":\"/blb\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"blb\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"laksdfjalsdkfjdakslkfkjl-112\",\"name\":\"专线ET\",\"url\":\"/et\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"et\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"}]",
+			"name":"",
+			"password":"907d717487a7946b79415f01fc1e2e45",
+			"phone":"18888888888",
+			"salt":"hc73w",
+			"status":1,
+			"tenantId":"ipace",
+			"username":"hanjiacheng"
+		},
+		{
+			"createTime":"2018-12-06 08:50:45",
+			"deptId":"2",
+			"email":"",
+			"id":"181206085044865576",
+			"lastSet":"[{\"id\":\"412\",\"name\":\"专属服务器DCC\",\"url\":\"/dcc\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"dcc\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"414\",\"name\":\"应用引擎专业版BAEPRO\",\"url\":\"/baepro\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"baepro\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"415\",\"name\":\"百度MapReduceBMR\",\"url\":\"/mapreduce\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"mapreduce\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"418\",\"name\":\"百度Elasticsearch\",\"url\":\"/elasticsearch\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"elasticsearch\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"419\",\"name\":\"弹性公网IPEIP\",\"url\":\"/eip\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"eip\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"420\",\"name\":\"负载均衡BLB\",\"url\":\"/blb\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"blb\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"laksdfjalsdkfjdakslkfkjl-112\",\"name\":\"专线ET\",\"url\":\"/et\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"et\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"}]",
+			"name":"",
+			"password":"ee112686ddc426a67730505696c5c21e",
+			"phone":"15137465712",
+			"salt":"ge54h",
+			"status":1,
+			"tenantId":"ipace",
+			"username":"han"
+		},
+		{
+			"createTime":"2018-12-06 12:52:15",
+			"deptId":"2",
+			"email":"",
+			"id":"1812061252145262",
+			"lastSet":"[{\"id\":\"412\",\"name\":\"专属服务器DCC\",\"url\":\"/dcc\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"dcc\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"414\",\"name\":\"应用引擎专业版BAEPRO\",\"url\":\"/baepro\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"baepro\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"415\",\"name\":\"百度MapReduceBMR\",\"url\":\"/mapreduce\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"mapreduce\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"418\",\"name\":\"百度Elasticsearch\",\"url\":\"/elasticsearch\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"elasticsearch\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"419\",\"name\":\"弹性公网IPEIP\",\"url\":\"/eip\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"eip\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"420\",\"name\":\"负载均衡BLB\",\"url\":\"/blb\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"blb\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"laksdfjalsdkfjdakslkfkjl-112\",\"name\":\"专线ET\",\"url\":\"/et\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"et\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"}]",
+			"name":"",
+			"password":"d8e8edd4793fb37a261d89e39edeed43",
+			"phone":"13641928741",
+			"salt":"rjv3i",
+			"status":1,
+			"tenantId":"ipace",
+			"username":"hanhan"
+		}
+	],
+	"searchCount":true,
+	"size":3,
+	"total":16
+}  @@@@@
+2018-12-14 11:07:22,895 INFO (StartupInfoLogger.java:50)- Starting MybatisplusApplication on SC-201810101158 with PID 3568 (E:\mybatisplus\target\classes started by Administrator in E:\mybatisplus)
+2018-12-14 11:07:22,902 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-14 11:07:26,400 INFO (StartupInfoLogger.java:59)- Started MybatisplusApplication in 4.072 seconds (JVM running for 5.217)
+2018-12-14 11:09:34,583 INFO (StartupInfoLogger.java:50)- Starting MybatisplusApplication on SC-201810101158 with PID 5044 (E:\mybatisplus\target\classes started by Administrator in E:\mybatisplus)
+2018-12-14 11:09:34,587 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-14 11:09:37,782 INFO (StartupInfoLogger.java:59)- Started MybatisplusApplication in 3.731 seconds (JVM running for 4.886)
+2018-12-14 11:10:56,701 INFO (StartupInfoLogger.java:50)- Starting MybatisplusApplication on SC-201810101158 with PID 7676 (E:\mybatisplus\target\classes started by Administrator in E:\mybatisplus)
+2018-12-14 11:10:56,707 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-14 11:10:59,972 INFO (StartupInfoLogger.java:59)- Started MybatisplusApplication in 3.755 seconds (JVM running for 4.831)
+2018-12-14 11:12:09,312 INFO (StartupInfoLogger.java:50)- Starting MybatisplusApplication on SC-201810101158 with PID 5488 (E:\mybatisplus\target\classes started by Administrator in E:\mybatisplus)
+2018-12-14 11:12:09,316 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-14 11:12:12,215 INFO (StartupInfoLogger.java:59)- Started MybatisplusApplication in 3.468 seconds (JVM running for 4.917)
+2018-12-14 11:12:16,544 INFO (pp.java:93)- @@@@@  sysUsers: [
+	{
+		"birthday":"1986-12-26 12:00:00",
+		"createTime":"2018-12-07 11:16:58",
+		"deptId":"5",
+		"email":"563909008@qq.com",
+		"id":"1",
+		"lastSet":"[{\"id\":\"412\",\"name\":\"专属服务器DCC\",\"url\":\"/dcc\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"dcc\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"414\",\"name\":\"应用引擎专业版BAEPRO\",\"url\":\"/baepro\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"baepro\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"415\",\"name\":\"百度MapReduceBMR\",\"url\":\"/mapreduce\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"mapreduce\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"418\",\"name\":\"百度Elasticsearch\",\"url\":\"/elasticsearch\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"elasticsearch\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"419\",\"name\":\"弹性公网IPEIP\",\"url\":\"/eip\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"eip\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"420\",\"name\":\"负载均衡BLB\",\"url\":\"/blb\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"blb\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"laksdfjalsdkfjdakslkfkjl-112\",\"name\":\"专线ET\",\"url\":\"/et\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"et\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"}]",
+		"name":"han2",
+		"password":"f51368cd76470f7b8f050a64f9641af3",
+		"phone":"13111111111",
+		"salt":"go9b1",
+		"sex":1,
+		"status":3,
+		"tenantId":"ipace",
+		"username":"han2"
+	},
+	{
+		"createTime":"2018-11-13 16:14:10",
+		"deptId":"2",
+		"email":"",
+		"id":"181113161410364-210",
+		"lastSet":"[{\"id\":\"412\",\"name\":\"专属服务器DCC\",\"url\":\"/dcc\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"dcc\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"414\",\"name\":\"应用引擎专业版BAEPRO\",\"url\":\"/baepro\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"baepro\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"415\",\"name\":\"百度MapReduceBMR\",\"url\":\"/mapreduce\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"mapreduce\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"418\",\"name\":\"百度Elasticsearch\",\"url\":\"/elasticsearch\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"elasticsearch\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"419\",\"name\":\"弹性公网IPEIP\",\"url\":\"/eip\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"eip\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"420\",\"name\":\"负载均衡BLB\",\"url\":\"/blb\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"blb\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"laksdfjalsdkfjdakslkfkjl-112\",\"name\":\"专线ET\",\"url\":\"/et\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"et\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"}]",
+		"name":"",
+		"password":"c02fe1000f87bd400662cac19ec5cbbc",
+		"phone":"",
+		"salt":"i648u",
+		"status":1,
+		"tenantId":"ipace",
+		"username":"hanpenghu"
+	},
+	{
+		"createTime":"2018-11-13 16:17:27",
+		"deptId":"2",
+		"email":"",
+		"id":"181113161727459-96",
+		"lastSet":"[{\"id\":\"412\",\"name\":\"专属服务器DCC\",\"url\":\"/dcc\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"dcc\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"414\",\"name\":\"应用引擎专业版BAEPRO\",\"url\":\"/baepro\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"baepro\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"415\",\"name\":\"百度MapReduceBMR\",\"url\":\"/mapreduce\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"mapreduce\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"418\",\"name\":\"百度Elasticsearch\",\"url\":\"/elasticsearch\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"elasticsearch\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"419\",\"name\":\"弹性公网IPEIP\",\"url\":\"/eip\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"eip\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"420\",\"name\":\"负载均衡BLB\",\"url\":\"/blb\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"blb\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"laksdfjalsdkfjdakslkfkjl-112\",\"name\":\"专线ET\",\"url\":\"/et\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"et\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"}]",
+		"name":"",
+		"password":"0dc0296aff4b43a722b5d4c2c3afafa6",
+		"phone":"15000682629",
+		"salt":"4mtns",
+		"status":1,
+		"tenantId":"ipace",
+		"username":"limengru"
+	},
+	{
+		"createTime":"2018-11-13 16:18:43",
+		"deptId":"2",
+		"email":"",
+		"id":"181113161843057-925",
+		"lastSet":"[{\"id\":\"412\",\"name\":\"专属服务器DCC\",\"url\":\"/dcc\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"dcc\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"414\",\"name\":\"应用引擎专业版BAEPRO\",\"url\":\"/baepro\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"baepro\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"415\",\"name\":\"百度MapReduceBMR\",\"url\":\"/mapreduce\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"mapreduce\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"418\",\"name\":\"百度Elasticsearch\",\"url\":\"/elasticsearch\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"elasticsearch\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"419\",\"name\":\"弹性公网IPEIP\",\"url\":\"/eip\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"eip\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"420\",\"name\":\"负载均衡BLB\",\"url\":\"/blb\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"blb\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"laksdfjalsdkfjdakslkfkjl-112\",\"name\":\"专线ET\",\"url\":\"/et\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"et\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"}]",
+		"name":"",
+		"password":"907d717487a7946b79415f01fc1e2e45",
+		"phone":"18888888888",
+		"salt":"hc73w",
+		"status":1,
+		"tenantId":"ipace",
+		"username":"hanjiacheng"
+	},
+	{
+		"createTime":"2018-12-06 08:50:45",
+		"deptId":"2",
+		"email":"",
+		"id":"181206085044865576",
+		"lastSet":"[{\"id\":\"412\",\"name\":\"专属服务器DCC\",\"url\":\"/dcc\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"dcc\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"414\",\"name\":\"应用引擎专业版BAEPRO\",\"url\":\"/baepro\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"baepro\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"415\",\"name\":\"百度MapReduceBMR\",\"url\":\"/mapreduce\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"mapreduce\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"418\",\"name\":\"百度Elasticsearch\",\"url\":\"/elasticsearch\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"elasticsearch\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"419\",\"name\":\"弹性公网IPEIP\",\"url\":\"/eip\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"eip\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"420\",\"name\":\"负载均衡BLB\",\"url\":\"/blb\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"blb\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"laksdfjalsdkfjdakslkfkjl-112\",\"name\":\"专线ET\",\"url\":\"/et\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"et\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"}]",
+		"name":"",
+		"password":"ee112686ddc426a67730505696c5c21e",
+		"phone":"15137465712",
+		"salt":"ge54h",
+		"status":1,
+		"tenantId":"ipace",
+		"username":"han"
+	},
+	{
+		"createTime":"2018-12-06 12:52:15",
+		"deptId":"2",
+		"email":"",
+		"id":"1812061252145262",
+		"lastSet":"[{\"id\":\"412\",\"name\":\"专属服务器DCC\",\"url\":\"/dcc\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"dcc\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"414\",\"name\":\"应用引擎专业版BAEPRO\",\"url\":\"/baepro\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"baepro\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"415\",\"name\":\"百度MapReduceBMR\",\"url\":\"/mapreduce\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"mapreduce\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"418\",\"name\":\"百度Elasticsearch\",\"url\":\"/elasticsearch\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"elasticsearch\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"419\",\"name\":\"弹性公网IPEIP\",\"url\":\"/eip\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"eip\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"420\",\"name\":\"负载均衡BLB\",\"url\":\"/blb\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"blb\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"laksdfjalsdkfjdakslkfkjl-112\",\"name\":\"专线ET\",\"url\":\"/et\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"et\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"}]",
+		"name":"",
+		"password":"d8e8edd4793fb37a261d89e39edeed43",
+		"phone":"13641928741",
+		"salt":"rjv3i",
+		"status":1,
+		"tenantId":"ipace",
+		"username":"hanhan"
+	},
+	{
+		"birthday":"2018-12-05 00:00:00",
+		"deptId":"",
+		"email":"734445113@qq.com",
+		"id":"181211192714573206",
+		"lastSet":"",
+		"name":"hhffcbhhv",
+		"password":"f77c29dfdee356ee4e8e7dc27e4a3e81",
+		"phone":"13098765325",
+		"salt":"gxq7g",
+		"sex":2,
+		"tenantId":"ipace",
+		"username":"jhreeg"
+	},
+	{
+		"birthday":"2018-12-11 00:00:00",
+		"deptId":"3",
+		"email":"5555@qq.com",
+		"id":"181211210353139577",
+		"lastSet":"",
+		"name":"han0x",
+		"password":"f8cf2c3329934d812c6d8bd0a841bb97",
+		"phone":"15137465777",
+		"salt":"6uc30",
+		"sex":2,
+		"tenantId":"ipace",
+		"username":"han0x"
+	},
+	{
+		"birthday":"2018-12-11 12:00:00",
+		"createTime":"2018-12-11 21:16:57",
+		"deptId":"2",
+		"email":"",
+		"id":"18121121165661970",
+		"lastSet":"[{\"id\":\"412\",\"name\":\"专属服务器DCC\",\"url\":\"/dcc\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"dcc\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"414\",\"name\":\"应用引擎专业版BAEPRO\",\"url\":\"/baepro\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"baepro\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"415\",\"name\":\"百度MapReduceBMR\",\"url\":\"/mapreduce\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"mapreduce\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"418\",\"name\":\"百度Elasticsearch\",\"url\":\"/elasticsearch\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"elasticsearch\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"419\",\"name\":\"弹性公网IPEIP\",\"url\":\"/eip\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"eip\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"420\",\"name\":\"负载均衡BLB\",\"url\":\"/blb\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"blb\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"laksdfjalsdkfjdakslkfkjl-112\",\"name\":\"专线ET\",\"url\":\"/et\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"et\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"}]",
+		"name":"喊喊喊",
+		"password":"8c636558ad2f61286d13607705e3f69d",
+		"phone":"13733680286",
+		"salt":"m30d0",
+		"sex":2,
+		"status":1,
+		"tenantId":"ipace",
+		"username":"hanhanhan"
+	},
+	{
+		"birthday":"1986-12-26 00:00:00",
+		"createTime":"2018-12-07 11:16:58",
+		"deptId":"2",
+		"email":"563909006@qq.com",
+		"id":"3",
+		"lastSet":"[{\"id\":\"412\",\"name\":\"专属服务器DCC\",\"url\":\"/dcc\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"dcc\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"414\",\"name\":\"应用引擎专业版BAEPRO\",\"url\":\"/baepro\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"baepro\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"415\",\"name\":\"百度MapReduceBMR\",\"url\":\"/mapreduce\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"mapreduce\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"418\",\"name\":\"百度Elasticsearch\",\"url\":\"/elasticsearch\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"elasticsearch\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"419\",\"name\":\"弹性公网IPEIP\",\"url\":\"/eip\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"eip\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"420\",\"name\":\"负载均衡BLB\",\"url\":\"/blb\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"blb\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"laksdfjalsdkfjdakslkfkjl-112\",\"name\":\"专线ET\",\"url\":\"/et\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"et\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"}]",
+		"name":"han3",
+		"password":"f51368cd76470f7b8f050a64f9641af3",
+		"phone":"13111111112",
+		"salt":"go9b1",
+		"sex":1,
+		"status":3,
+		"tenantId":"ipace",
+		"username":"han3"
+	},
+	{
+		"birthday":"1986-12-26 00:00:00",
+		"createTime":"2018-12-07 11:16:58",
+		"deptId":"2",
+		"email":"563909009@qq.com",
+		"id":"4",
+		"lastSet":"[{\"id\":\"412\",\"name\":\"专属服务器DCC\",\"url\":\"/dcc\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"dcc\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"414\",\"name\":\"应用引擎专业版BAEPRO\",\"url\":\"/baepro\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"baepro\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"415\",\"name\":\"百度MapReduceBMR\",\"url\":\"/mapreduce\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"mapreduce\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"418\",\"name\":\"百度Elasticsearch\",\"url\":\"/elasticsearch\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"elasticsearch\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"419\",\"name\":\"弹性公网IPEIP\",\"url\":\"/eip\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"eip\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"420\",\"name\":\"负载均衡BLB\",\"url\":\"/blb\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"blb\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"laksdfjalsdkfjdakslkfkjl-112\",\"name\":\"专线ET\",\"url\":\"/et\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"et\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"}]",
+		"name":"han4",
+		"password":"f51368cd76470f7b8f050a64f9641af3",
+		"phone":"13111111113",
+		"salt":"go9b1",
+		"sex":1,
+		"status":1,
+		"tenantId":"ipace",
+		"username":"han4"
+	},
+	{
+		"birthday":"1986-12-27 12:00:00",
+		"createTime":"2018-12-07 11:16:58",
+		"deptId":"3",
+		"email":"563909400@qq.com",
+		"id":"5",
+		"lastSet":"[{\"id\":\"412\",\"name\":\"专属服务器DCC\",\"url\":\"/dcc\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"dcc\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"414\",\"name\":\"应用引擎专业版BAEPRO\",\"url\":\"/baepro\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"baepro\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"415\",\"name\":\"百度MapReduceBMR\",\"url\":\"/mapreduce\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"mapreduce\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"418\",\"name\":\"百度Elasticsearch\",\"url\":\"/elasticsearch\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"elasticsearch\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"419\",\"name\":\"弹性公网IPEIP\",\"url\":\"/eip\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"eip\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"420\",\"name\":\"负载均衡BLB\",\"url\":\"/blb\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"blb\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"laksdfjalsdkfjdakslkfkjl-112\",\"name\":\"专线ET\",\"url\":\"/et\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"et\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"}]",
+		"name":"han5",
+		"password":"f51368cd76470f7b8f050a64f9641af3",
+		"phone":"13641928742",
+		"salt":"go9b1",
+		"sex":2,
+		"status":1,
+		"tenantId":"ipace",
+		"username":"han05"
+	},
+	{
+		"birthday":"1986-12-26 12:00:00",
+		"createTime":"2018-12-07 11:16:58",
+		"deptId":"",
+		"email":"563909067@qq.com",
+		"id":"6",
+		"lastSet":"[{\"id\":\"412\",\"name\":\"专属服务器DCC\",\"url\":\"/dcc\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"dcc\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"414\",\"name\":\"应用引擎专业版BAEPRO\",\"url\":\"/baepro\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"baepro\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"415\",\"name\":\"百度MapReduceBMR\",\"url\":\"/mapreduce\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"mapreduce\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"418\",\"name\":\"百度Elasticsearch\",\"url\":\"/elasticsearch\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"elasticsearch\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"419\",\"name\":\"弹性公网IPEIP\",\"url\":\"/eip\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"eip\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"420\",\"name\":\"负载均衡BLB\",\"url\":\"/blb\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"blb\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"laksdfjalsdkfjdakslkfkjl-112\",\"name\":\"专线ET\",\"url\":\"/et\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"et\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"}]",
+		"name":"韩6",
+		"password":"f51368cd76470f7b8f050a64f9641af3",
+		"phone":"13111111167",
+		"salt":"go9b1",
+		"sex":2,
+		"status":1,
+		"tenantId":"ipace",
+		"username":"han6"
+	},
+	{
+		"birthday":"1986-12-26 00:00:00",
+		"createTime":"2018-12-07 11:16:58",
+		"deptId":"2",
+		"email":"563988888@qq.com",
+		"id":"7",
+		"lastSet":"[{\"id\":\"412\",\"name\":\"专属服务器DCC\",\"url\":\"/dcc\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"dcc\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"414\",\"name\":\"应用引擎专业版BAEPRO\",\"url\":\"/baepro\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"baepro\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"415\",\"name\":\"百度MapReduceBMR\",\"url\":\"/mapreduce\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"mapreduce\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"418\",\"name\":\"百度Elasticsearch\",\"url\":\"/elasticsearch\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"elasticsearch\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"419\",\"name\":\"弹性公网IPEIP\",\"url\":\"/eip\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"eip\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"420\",\"name\":\"负载均衡BLB\",\"url\":\"/blb\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"blb\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"laksdfjalsdkfjdakslkfkjl-112\",\"name\":\"专线ET\",\"url\":\"/et\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"et\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"}]",
+		"name":"han7",
+		"password":"f51368cd76470f7b8f050a64f9641af3",
+		"phone":"13111118888",
+		"salt":"go9b1",
+		"sex":1,
+		"status":1,
+		"tenantId":"ipace",
+		"username":"han7"
+	},
+	{
+		"birthday":"1986-12-26 12:00:00",
+		"createTime":"2018-11-12 16:23:14",
+		"deptId":"1",
+		"email":"663400464@qq.com",
+		"id":"abc",
+		"lastSet":"[{\"id\":\"412\",\"name\":\"专属服务器DCC\",\"url\":\"/dcc\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"dcc\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"414\",\"name\":\"应用引擎专业版BAEPRO\",\"url\":\"/baepro\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"baepro\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"415\",\"name\":\"百度MapReduceBMR\",\"url\":\"/mapreduce\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"mapreduce\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"418\",\"name\":\"百度Elasticsearch\",\"url\":\"/elasticsearch\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"elasticsearch\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"419\",\"name\":\"弹性公网IPEIP\",\"url\":\"/eip\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"eip\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"420\",\"name\":\"负载均衡BLB\",\"url\":\"/blb\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"blb\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"laksdfjalsdkfjdakslkfkjl-112\",\"name\":\"专线ET\",\"url\":\"/et\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"et\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"}]",
+		"name":"韩",
+		"password":"f51368cd76470f7b8f050a64f9641af3",
+		"phone":"13733680282",
+		"salt":"go9b1",
+		"status":1,
+		"tenantId":"ipace",
+		"username":"admin"
+	},
+	{
+		"birthday":"1986-12-26 00:00:00",
+		"createTime":"2018-11-14 19:22:58",
+		"deptId":"2",
+		"email":"563909408@qq.com",
+		"id":"abc1",
+		"lastSet":"[{\"id\":\"412\",\"name\":\"专属服务器DCC\",\"url\":\"/dcc\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"dcc\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"414\",\"name\":\"应用引擎专业版BAEPRO\",\"url\":\"/baepro\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"baepro\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"415\",\"name\":\"百度MapReduceBMR\",\"url\":\"/mapreduce\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"mapreduce\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"418\",\"name\":\"百度Elasticsearch\",\"url\":\"/elasticsearch\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"elasticsearch\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"419\",\"name\":\"弹性公网IPEIP\",\"url\":\"/eip\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"eip\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"420\",\"name\":\"负载均衡BLB\",\"url\":\"/blb\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"blb\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"laksdfjalsdkfjdakslkfkjl-112\",\"name\":\"专线ET\",\"url\":\"/et\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"et\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"}]",
+		"name":"韩",
+		"password":"6790713d7b1f141ee255142d79074e1a",
+		"phone":"13733680281",
+		"salt":"royx9",
+		"status":1,
+		"tenantId":"ipace",
+		"username":"han1"
+	}
+]  @@@@@
+2018-12-14 11:12:39,331 INFO (StartupInfoLogger.java:50)- Starting MybatisplusApplication on SC-201810101158 with PID 6756 (E:\mybatisplus\target\classes started by Administrator in E:\mybatisplus)
+2018-12-14 11:12:39,335 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-14 11:12:42,169 INFO (StartupInfoLogger.java:59)- Started MybatisplusApplication in 3.495 seconds (JVM running for 4.621)
+2018-12-14 11:12:46,340 INFO (pp.java:93)- @@@@@  pageInfo.getList(): [
+	{
+		"createTime":"2018-11-13 16:18:43",
+		"deptId":"2",
+		"email":"",
+		"id":"181113161843057-925",
+		"lastSet":"[{\"id\":\"412\",\"name\":\"专属服务器DCC\",\"url\":\"/dcc\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"dcc\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"414\",\"name\":\"应用引擎专业版BAEPRO\",\"url\":\"/baepro\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"baepro\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"415\",\"name\":\"百度MapReduceBMR\",\"url\":\"/mapreduce\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"mapreduce\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"418\",\"name\":\"百度Elasticsearch\",\"url\":\"/elasticsearch\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"elasticsearch\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"419\",\"name\":\"弹性公网IPEIP\",\"url\":\"/eip\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"eip\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"420\",\"name\":\"负载均衡BLB\",\"url\":\"/blb\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"blb\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"laksdfjalsdkfjdakslkfkjl-112\",\"name\":\"专线ET\",\"url\":\"/et\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"et\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"}]",
+		"name":"",
+		"password":"907d717487a7946b79415f01fc1e2e45",
+		"phone":"18888888888",
+		"salt":"hc73w",
+		"status":1,
+		"tenantId":"ipace",
+		"username":"hanjiacheng"
+	},
+	{
+		"createTime":"2018-12-06 08:50:45",
+		"deptId":"2",
+		"email":"",
+		"id":"181206085044865576",
+		"lastSet":"[{\"id\":\"412\",\"name\":\"专属服务器DCC\",\"url\":\"/dcc\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"dcc\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"414\",\"name\":\"应用引擎专业版BAEPRO\",\"url\":\"/baepro\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"baepro\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"415\",\"name\":\"百度MapReduceBMR\",\"url\":\"/mapreduce\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"mapreduce\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"418\",\"name\":\"百度Elasticsearch\",\"url\":\"/elasticsearch\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"elasticsearch\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"419\",\"name\":\"弹性公网IPEIP\",\"url\":\"/eip\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"eip\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"420\",\"name\":\"负载均衡BLB\",\"url\":\"/blb\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"blb\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"laksdfjalsdkfjdakslkfkjl-112\",\"name\":\"专线ET\",\"url\":\"/et\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"et\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"}]",
+		"name":"",
+		"password":"ee112686ddc426a67730505696c5c21e",
+		"phone":"15137465712",
+		"salt":"ge54h",
+		"status":1,
+		"tenantId":"ipace",
+		"username":"han"
+	},
+	{
+		"createTime":"2018-12-06 12:52:15",
+		"deptId":"2",
+		"email":"",
+		"id":"1812061252145262",
+		"lastSet":"[{\"id\":\"412\",\"name\":\"专属服务器DCC\",\"url\":\"/dcc\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"dcc\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"414\",\"name\":\"应用引擎专业版BAEPRO\",\"url\":\"/baepro\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"baepro\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"415\",\"name\":\"百度MapReduceBMR\",\"url\":\"/mapreduce\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"mapreduce\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"418\",\"name\":\"百度Elasticsearch\",\"url\":\"/elasticsearch\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"elasticsearch\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"419\",\"name\":\"弹性公网IPEIP\",\"url\":\"/eip\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"eip\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"420\",\"name\":\"负载均衡BLB\",\"url\":\"/blb\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"blb\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"laksdfjalsdkfjdakslkfkjl-112\",\"name\":\"专线ET\",\"url\":\"/et\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"et\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"}]",
+		"name":"",
+		"password":"d8e8edd4793fb37a261d89e39edeed43",
+		"phone":"13641928741",
+		"salt":"rjv3i",
+		"status":1,
+		"tenantId":"ipace",
+		"username":"hanhan"
+	}
+]  @@@@@
+2018-12-14 11:15:50,559 INFO (StartupInfoLogger.java:50)- Starting MybatisplusApplication on SC-201810101158 with PID 3516 (E:\mybatisplus\target\classes started by Administrator in E:\mybatisplus)
+2018-12-14 11:15:50,563 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-14 11:15:53,428 INFO (StartupInfoLogger.java:59)- Started MybatisplusApplication in 3.474 seconds (JVM running for 4.945)
+2018-12-14 11:15:57,627 INFO (pp.java:93)- @@@@@  sysUsers: {
+	"current":2,
+	"pages":6,
+	"records":[
+		{
+			"createTime":"2018-11-13 16:18:43",
+			"deptId":"2",
+			"email":"",
+			"id":"181113161843057-925",
+			"lastSet":"[{\"id\":\"412\",\"name\":\"专属服务器DCC\",\"url\":\"/dcc\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"dcc\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"414\",\"name\":\"应用引擎专业版BAEPRO\",\"url\":\"/baepro\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"baepro\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"415\",\"name\":\"百度MapReduceBMR\",\"url\":\"/mapreduce\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"mapreduce\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"418\",\"name\":\"百度Elasticsearch\",\"url\":\"/elasticsearch\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"elasticsearch\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"419\",\"name\":\"弹性公网IPEIP\",\"url\":\"/eip\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"eip\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"420\",\"name\":\"负载均衡BLB\",\"url\":\"/blb\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"blb\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"laksdfjalsdkfjdakslkfkjl-112\",\"name\":\"专线ET\",\"url\":\"/et\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"et\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"}]",
+			"name":"",
+			"password":"907d717487a7946b79415f01fc1e2e45",
+			"phone":"18888888888",
+			"salt":"hc73w",
+			"status":1,
+			"tenantId":"ipace",
+			"username":"hanjiacheng"
+		},
+		{
+			"createTime":"2018-12-06 08:50:45",
+			"deptId":"2",
+			"email":"",
+			"id":"181206085044865576",
+			"lastSet":"[{\"id\":\"412\",\"name\":\"专属服务器DCC\",\"url\":\"/dcc\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"dcc\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"414\",\"name\":\"应用引擎专业版BAEPRO\",\"url\":\"/baepro\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"baepro\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"415\",\"name\":\"百度MapReduceBMR\",\"url\":\"/mapreduce\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"mapreduce\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"418\",\"name\":\"百度Elasticsearch\",\"url\":\"/elasticsearch\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"elasticsearch\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"419\",\"name\":\"弹性公网IPEIP\",\"url\":\"/eip\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"eip\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"420\",\"name\":\"负载均衡BLB\",\"url\":\"/blb\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"blb\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"laksdfjalsdkfjdakslkfkjl-112\",\"name\":\"专线ET\",\"url\":\"/et\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"et\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"}]",
+			"name":"",
+			"password":"ee112686ddc426a67730505696c5c21e",
+			"phone":"15137465712",
+			"salt":"ge54h",
+			"status":1,
+			"tenantId":"ipace",
+			"username":"han"
+		},
+		{
+			"createTime":"2018-12-06 12:52:15",
+			"deptId":"2",
+			"email":"",
+			"id":"1812061252145262",
+			"lastSet":"[{\"id\":\"412\",\"name\":\"专属服务器DCC\",\"url\":\"/dcc\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"dcc\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"414\",\"name\":\"应用引擎专业版BAEPRO\",\"url\":\"/baepro\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"baepro\",\"pcode\":\"calculate\",\"pcodes\":\"0|calculate|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"401\"},{\"id\":\"415\",\"name\":\"百度MapReduceBMR\",\"url\":\"/mapreduce\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"mapreduce\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"418\",\"name\":\"百度Elasticsearch\",\"url\":\"/elasticsearch\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"elasticsearch\",\"pcode\":\"analysis\",\"pcodes\":\"0|analysis|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"402\"},{\"id\":\"419\",\"name\":\"弹性公网IPEIP\",\"url\":\"/eip\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"eip\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"420\",\"name\":\"负载均衡BLB\",\"url\":\"/blb\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"blb\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"},{\"id\":\"laksdfjalsdkfjdakslkfkjl-112\",\"name\":\"专线ET\",\"url\":\"/et\",\"num\":1,\"ismenu\":1,\"tenantId\":\"ipace\",\"code\":\"et\",\"pcode\":\"network\",\"pcodes\":\"0|network|\",\"icon\":\"\",\"levels\":1,\"tips\":\"\",\"status\":1,\"isopen\":1,\"type\":\"prd\",\"pid\":\"403\"}]",
+			"name":"",
+			"password":"d8e8edd4793fb37a261d89e39edeed43",
+			"phone":"13641928741",
+			"salt":"rjv3i",
+			"status":1,
+			"tenantId":"ipace",
+			"username":"hanhan"
+		}
+	],
+	"searchCount":true,
+	"size":3,
+	"total":16
+}  @@@@@
