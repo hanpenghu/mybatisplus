@@ -15,6 +15,8 @@ public class SqlLeft {
         return new SqlLeft();
     }
 
+
+
     public SqlLeft column(String column){
         sb.append(column).append(d);
         return this;
@@ -34,7 +36,10 @@ public class SqlLeft {
         sb.append(from);
         return this;
     }
-
+    public SqlLeft from(String tableName){
+        sb.append(from).append(k).append(tableName).append(k);
+        return this;
+    }
     public SqlLeft table(String tableName){
         sb.append(k).append(tableName);
         return this;
@@ -112,7 +117,9 @@ public class SqlLeft {
         return sb.toString().replace("  "," ").replace("   "," ").replace("    "," ").replace(",FROM"," FROM");
     }
 
-
+    public static String mysqlDate2Str(String columnName){
+        return "DATE_FORMAT("+columnName+", '%Y-%m-%d %h:%i:%s')";
+    }
 
     public static void main(String[]args){
         String sql = SqlLeft.b()
