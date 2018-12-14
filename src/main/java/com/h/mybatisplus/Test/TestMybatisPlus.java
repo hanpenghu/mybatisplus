@@ -46,7 +46,7 @@ public class TestMybatisPlus {
     //    #如果用mybatis逆向这个必须配置(mybatis-plus不需要配置)
 //    mybatis-plus.mapper-locations=classpath*:com/h/mybatisplus/dao/xml/*.xml
     //测试分页查询(需要再config文件夹配置分页插件)
-    @Scheduled(initialDelay = 4000,fixedDelay = Long.MAX_VALUE)
+//    @Scheduled(initialDelay = 4000,fixedDelay = Long.MAX_VALUE)
     public void f2(){
         LambdaQueryWrapper<SysUser> wrapper = new QueryWrapper<SysUser>().lambda().eq(SysUser::getTenantId, "ipace");
         Page<SysUser> page = new Page<SysUser> (2, 3);
