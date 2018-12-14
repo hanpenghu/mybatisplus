@@ -411,3 +411,16 @@
 2018-12-14 14:13:51,605 INFO (pp.java:93)- @@@@@  strigns: ["1","2","3"]  @@@@@
 2018-12-14 14:16:10,755 INFO (pp.java:93)- @@@@@  strigns: ["1","2","3"]  @@@@@
 2018-12-14 14:16:10,761 INFO (pp.java:93)- @@@@@  f1.name2(): "fuck"  @@@@@
+2018-12-14 16:03:18,699 INFO (pp.java:93)- @@@@@  strigns: ["1","2","3"]  @@@@@
+2018-12-14 16:03:18,706 INFO (pp.java:93)- @@@@@  f1.name2(): "fuck"  @@@@@
+2018-12-14 16:03:35,714 INFO (StartupInfoLogger.java:50)- Starting MybatisplusApplication on SC-201810101158 with PID 5152 (E:\mybatisplus\target\classes started by Administrator in E:\mybatisplus)
+2018-12-14 16:03:35,717 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-14 16:03:46,030 INFO (StartupInfoLogger.java:59)- Started MybatisplusApplication in 11.919 seconds (JVM running for 14.43)
+2018-12-14 16:04:24,695 INFO (StartupInfoLogger.java:50)- Starting MybatisplusApplication on SC-201810101158 with PID 3556 (E:\mybatisplus\target\classes started by Administrator in E:\mybatisplus)
+2018-12-14 16:04:24,701 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-14 16:04:27,598 INFO (StartupInfoLogger.java:59)- Started MybatisplusApplication in 3.48 seconds (JVM running for 4.71)
+2018-12-14 16:04:31,744 INFO (pp.java:93)- @@@@@  username: "admin"  @@@@@
+2018-12-14 16:05:18,930 INFO (StartupInfoLogger.java:50)- Starting MybatisplusApplication on SC-201810101158 with PID 5664 (E:\mybatisplus\target\classes started by Administrator in E:\mybatisplus)
+2018-12-14 16:05:18,934 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-14 16:05:21,917 INFO (StartupInfoLogger.java:59)- Started MybatisplusApplication in 3.585 seconds (JVM running for 4.813)
+2018-12-14 16:05:25,986 INFO (pp.java:93)- @@@@@  username: "admin"  @@@@@
