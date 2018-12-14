@@ -1,6 +1,7 @@
 package com.h.mybatisplus.Test;
 
 
+import cn.hutool.core.annotation.AnnotationUtil;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.segments.MergeSegments;
@@ -55,6 +56,7 @@ public class TestMybatisPlus {
         System.out.println("当前页数 ------> " + sysUserIPage.getCurrent());
         System.out.println("当前每页显示数 ------> " + sysUserIPage.getSize());
         pp.logInfoPretty(log,"sysUsers",sysUserIPage);
+
     }
 
 
