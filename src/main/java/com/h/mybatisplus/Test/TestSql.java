@@ -1,13 +1,11 @@
 package com.h.mybatisplus.Test;
 
-
 import com.h.mybatisplus.dao.Aa;
 import hanhan.SqlLeft;
 import hanhan.pp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
-
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
@@ -30,7 +28,7 @@ public class TestSql {
     }
 
 
-        @Scheduled(initialDelay = 4000,fixedDelay = Long.MAX_VALUE)
+    //        @Scheduled(initialDelay = 4000,fixedDelay = Long.MAX_VALUE)
     public void f2(){
         String sql001= SqlLeft.b()
                 .column(SqlLeft.mysqlDate2Str("create_time"),"","createTime")
